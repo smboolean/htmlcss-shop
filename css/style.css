@@ -5,6 +5,17 @@
 }
 
 .prodotto {
+  position: relative;
   display: inline-block;
+}
+
+.sconto {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: green;
+}
+
+.sconto.sconto-rosso {
   background-color: red;
 }
