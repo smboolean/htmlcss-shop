@@ -15,7 +15,19 @@
   right: 0;
   background-color: green;
 }
-
 .sconto.sconto-rosso {
   background-color: red;
+}
+
+.heart {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+.prodotto:hover .heart {
+  display: block;
 }
