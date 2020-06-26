@@ -4,6 +4,15 @@
   padding: 0;
 }
 
+#container {
+  width: 80%;
+  text-align: center;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
 .prodotto {
   position: relative;
   display: inline-block;
